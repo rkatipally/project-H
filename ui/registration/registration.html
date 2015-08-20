@@ -1,0 +1,112 @@
+    <div class="container">    
+        <div id="signupbox" style=" margin:50px 0 0 0;  padding :0px; width:50%" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title">Sign Up</div>
+                            <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" ui-sref = "login" s>Sign In</a></div>
+                        </div>  
+                        <div class="panel-body" >
+                            <form id="signupform" class="form-horizontal" role="form">
+                                
+                                <div id="signupalert" style="display:none" class="alert alert-danger">
+                                    <p>Error:</p>
+                                    <span></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="firstname" class="col-md-3 control-label">First Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="firstname" placeholder="First Name" ng-model="user.firstname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname" class="col-md-3 control-label">Last Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="lastname" placeholder="Last Name" ng-model="user.lastname">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="userid" class="col-md-3 control-label">User ID</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="userid" placeholder="userid" ng-model="user.userid">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-md-3 control-label">Password</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control" name="passwd" placeholder="Password" ng-model="user.password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-md-3 control-label">Confirm password</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control" name="passwd" placeholder="Password">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="col-md-3 control-label">Email</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="email" placeholder="Email Address" ng-model="user.email">
+                                    </div>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="streetadress" class="col-md-3 control-label">Sttet address</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="streetaddress" placeholder="Street Address" ng-model="user.streetaddress">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="aptnumber" class="col-md-3 control-label">Email</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="apt#" placeholder="apt #" ng-model="user.aptnumber">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="city" class="col-md-3 control-label">City</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="city" placeholder="City" ng-model="user.city">
+                                    </div>
+                                </div>
+                                 <div class="form-group">
+                                    <label for="state" class="col-md-3 control-label">State</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="email" placeholder="Email Address" ng-model="user.state">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="zipcode" class="col-md-3 control-label">Zipcode</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="email" placeholder="Zipcode" ng-model="user.zipcode">
+                                    </div>
+                                </div>                               
+
+                                <div class="form-group">
+                                    <!-- Button -->                                        
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button id="btn-signup" type="button" class="btn btn-info" ng-click="register()"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                        <span style="margin-left:8px;">or</span>  
+                                    </div>
+                                </div>
+                                
+                                <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
+                                    
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button id="btn-fbsignup" type="button" class="btn btn-primary" ng-click="registerWithFB()"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
+                                    </div>                                           
+                                        
+                                </div>
+                                
+                                
+                                
+                            </form>
+                         </div>
+                    </div>
+
+               
+               
+                
+         </div> 
+    </div>
+    

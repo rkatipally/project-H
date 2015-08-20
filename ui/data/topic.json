@@ -1,0 +1,61 @@
+{
+  "id": "1",
+  "name": "javascript",
+  "categories": [
+    "news",
+    "tutorials",
+    "forum",
+    "interview questions"
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "heading": "welcome to javascript",
+      "topic": "javascript",
+      "content": "something goes here",
+      "keywords": [
+        "introduction"
+      ],
+      "commentscnt": "11",
+      "date_created": "08-13-2015"
+    },
+    {
+      "id": "2",
+      "heading": "welcome to prototypes",
+      "topic": "javascript",
+      "content": "something goes here",
+      "keywords": [
+        "introduction"
+      ],
+      "commentscnt": "11",
+      "date_created": "08-13-2015"
+    },
+    {
+      "id": "3",
+      "heading": "welcome to angularjs",
+      "topic": "javascript",
+      "content": "something goes here",
+      "keywords": [
+        "introduction"
+      ],
+      "commentscnt": "11",
+      "date_created": "08-13-2015"
+    },
+    {
+      "id": "1",
+      "heading": "welcome to bootrap",
+      "topic": "javascript",
+      "content": "something goes here",
+      "keywords": [
+        "introduction"
+      ],
+      "commentscnt": "11",
+      "date_created": "08-13-2015"
+    }
+  ],
+  "topkeywords": [
+    "prototypes",
+    "closures",
+    "objects"
+  ]
+}
